@@ -31,7 +31,7 @@ export default function Home() {
       <h1>alice</h1>
 
       {/* <ParallaxSection /> */}
-      <div className="relative ">
+      <div className="relative w-full lg:w-auto m-auto">
         <ParallaxSection />
       </div>
       <DateCounter />
