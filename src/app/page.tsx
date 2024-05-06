@@ -1,9 +1,11 @@
+import ParallaxSection from "app/components/molecules/AliceFall/AliceFall";
 import AliceFall from "app/components/molecules/AliceFall/AliceFall";
 import { DateCounter } from "app/components/molecules/DateCounter/DateCounter";
 import Gallery from "app/components/molecules/Gallery/Gallery";
 import HeroSection from "app/components/organisms/HeroSection/HeroSection";
 
 import Image from "next/image";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 export default function Home() {
   ///https://ibb.co/VjZ8r7J
@@ -27,7 +29,14 @@ export default function Home() {
       <Gallery />
       <DateCounter />
       <h1>alice</h1>
-      <AliceFall />
+
+      {/* <ParallaxSection /> */}
+      <div className="relative ">
+        <ParallaxSection />
+      </div>
+      <DateCounter />
+      <h1>alice</h1>
+      {/* <AliceFall /> */}
     </main>
   );
 }
