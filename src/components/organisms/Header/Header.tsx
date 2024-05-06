@@ -6,7 +6,7 @@ import { FaHeart } from "react-icons/fa";
 export const Header = () => {
   return (
     <header className="bg-gray-800">
-      <div className="container mx-auto px-4 py-8 flex justify-between items-center">
+      <div className="container mx-auto px-4 py-8 flex justify-around items-center">
         <p>
           <GiPokerHand size={30} />
         </p>

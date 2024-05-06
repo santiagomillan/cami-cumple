@@ -94,9 +94,9 @@ import Image from "next/image";
 
 const ParallaxSection = () => {
   return (
-    <div className="my-12 mb-20">
+    <div className="my-10 mb-20">
       <ParallaxProvider>
-        <div className="relative overflow-hidden mt-20">
+        <div className="relative overflow-hidden ">
           <Parallax className="top-0 block sm:hidden " translateY={[-10, 10]}>
             <Image
               src="https://i.ibb.co/x7dMNxS/Background-1.png"
