@@ -3,7 +3,8 @@ import AliceFall from "app/components/molecules/AliceFall/AliceFall";
 import { DateCounter } from "app/components/molecules/DateCounter/DateCounter";
 import Favorites from "app/components/molecules/Favorites/Favorites";
 import Gallery from "app/components/molecules/Gallery/Gallery";
-import Testimonials from "app/components/molecules/Testimonials/Testimonials";
+import Testimonial20 from "app/components/molecules/Testimonials/Testimonials";
+
 import HeroSection from "app/components/organisms/HeroSection/HeroSection";
 
 import Image from "next/image";
@@ -42,8 +43,7 @@ export default function Home() {
           Testimonios
         </div>
       </div>
-
-      <Testimonials />
+      <Testimonial20 />
     </main>
   );
 }
