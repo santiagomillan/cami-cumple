@@ -60,7 +60,7 @@ const TestimonialItem = ({ item }: any) => {
   return (
     <div className=" shadow-xl rounded-xl hover:-translate-y-1 h-full duration-300 p-6 bg-slate-700">
       <div className="mt-4">
-        <p className="opacity-50 mb-6 leading-loose">{content}</p>
+        <p className=" mb-6 leading-loose">{content}</p>
         <div className="flex items-center">
           <div className="mr-2">
             <Image
@@ -94,7 +94,7 @@ const Testimonial20 = () => {
     }
   };
   return (
-    <section className="ezy__testimonial20 light py-14 md:py-24 text-white md:w-4/5 w-11/12">
+    <section className="ezy__testimonial20 light py-14  text-white md:w-4/5 w-11/12">
       <div className="container relative">
         <div className="flex justify-between mb-md-4">
           <div className="w-2/3 lg:max-w-lg">
@@ -109,13 +109,13 @@ const Testimonial20 = () => {
           <div className="w-1/3">
             <div className="flex justify-end items-center relative h-full">
               <button
-                className="text-lg bg-white shadow-xl dark:bg-slate-800 opacity-75 hover:opacity-100 w-12 h-12 flex justify-center items-center rounded-full mr-4"
+                className="text-lg  shadow-xl bg-slate-800 opacity-75 hover:opacity-100 w-12 h-12 flex justify-center items-center rounded-full mr-4"
                 onClick={() => handleControl("prev")}
               >
                 <FaAngleLeft />
               </button>
               <button
-                className="text-lg bg-white shadow-xl dark:bg-slate-800 opacity-75 hover:opacity-100 w-12 h-12 flex justify-center items-center rounded-full"
+                className="text-lg  shadow-xl bg-slate-800 opacity-75 hover:opacity-100 w-12 h-12 flex justify-center items-center rounded-full"
                 onClick={() => handleControl("next")}
               >
                 <FaAngleRight />

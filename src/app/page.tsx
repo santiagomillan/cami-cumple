@@ -3,6 +3,7 @@ import AliceFall from "app/components/molecules/AliceFall/AliceFall";
 import { DateCounter } from "app/components/molecules/DateCounter/DateCounter";
 import Favorites from "app/components/molecules/Favorites/Favorites";
 import Gallery from "app/components/molecules/Gallery/Gallery";
+import Nosotros from "app/components/molecules/Nosotros/Nosotros";
 import Testimonial20 from "app/components/molecules/Testimonials/Testimonials";
 
 import HeroSection from "app/components/organisms/HeroSection/HeroSection";
@@ -38,7 +39,14 @@ export default function Home() {
 
       <Favorites />
 
-      <div className="text-5xl font-extrabold text-center pb-5">
+      <div className="text-5xl font-extrabold text-center pb-10">
+        <div className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+          Nosotros y nuestras locuras
+        </div>
+      </div>
+      <Nosotros />
+
+      <div className="text-5xl font-extrabold text-center ">
         <div className="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
           Testimonios
         </div>
