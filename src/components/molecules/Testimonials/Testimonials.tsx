@@ -94,7 +94,7 @@ const Testimonial20 = () => {
     }
   };
   return (
-    <section className="ezy__testimonial20 light py-14 md:py-24 text-white w-11/12">
+    <section className="ezy__testimonial20 light py-14 md:py-24 text-white md:w-4/5 w-11/12">
       <div className="container relative">
         <div className="flex justify-between mb-md-4">
           <div className="w-2/3 lg:max-w-lg">
