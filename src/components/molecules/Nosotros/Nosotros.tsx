@@ -3,34 +3,42 @@ import Image from "next/image";
 export default function Nosotros() {
   return (
     <section className=" overflow-hidden w-4/5 ">
-      <div className=" px-8 my-48 md:my-10  h-svh md:h-80 flex flex-col justify-center">
+      <div className=" px-8 my-32 md:my-10  h-svh md:h-80 flex flex-col justify-center">
         <div className="flex flex-col sm:flex-row mx-auto">
           <div>
-            <img
+            <Image
               src="https://i.ibb.co/vXNxtKW/OIG-2y-9y-Tiej-C-7-Eqkg-Iy.jpg"
               className="z-10 rounded-xl  rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-110 transform origin-bottom"
               alt="#_"
+              width={500}
+              height={500}
             />
           </div>
           <div>
-            <img
+            <Image
               src="https://i.ibb.co/1ZF1np5/IMG-20230406-175238.jpg"
               className="rounded-xl  -rotate-12 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-110 transform origin-bottom"
               alt="#_"
+              width={500}
+              height={500}
             />
           </div>
           <div>
-            <img
+            <Image
               src="https://i.ibb.co/Hd4g9qT/IMG-20220801-213035.jpg"
               className="rounded-xl  rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-110 transform origin-bottom"
               alt="#_"
+              width={500}
+              height={500}
             />
           </div>
           <div>
-            <img
+            <Image
               src="https://i.ibb.co/1ZnC64t/IMG-20220727-212637.jpg"
               className="rounded-xl  -rotate-12 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-110 transform origin-bottom"
               alt="#_"
+              width={500}
+              height={500}
             />
           </div>
         </div>
