@@ -1,0 +1,32 @@
+.heroSection {
+    position: relative;
+    width: 100%;
+    height: 600px; /* Altura de la sección en escritorio */
+    background-image: url("https://i.ibb.co/Kq3SjDR/IMG-20230402-203443.jpg");
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
+    background-position: bottom; /* Centra la imagen */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(35, 84, 117, 0.5); /* Color de superposición semi-transparente */
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1; /* Asegura que el contenido esté por encima de la capa de superposición */
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .heroSection {
+      height: 400px; /* Altura de la sección en dispositivos móviles */
+    }
+  }
+  

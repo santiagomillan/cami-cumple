@@ -1,6 +1,7 @@
 import ParallaxSection from "app/components/molecules/AliceFall/AliceFall";
 import AliceFall from "app/components/molecules/AliceFall/AliceFall";
 import { DateCounter } from "app/components/molecules/DateCounter/DateCounter";
+import EndSection from "app/components/molecules/EndSection/EndSection";
 import Favorites from "app/components/molecules/Favorites/Favorites";
 import Gallery from "app/components/molecules/Gallery/Gallery";
 import Nosotros from "app/components/molecules/Nosotros/Nosotros";
@@ -52,6 +53,7 @@ export default function Home() {
         </div>
       </div>
       <Testimonial20 />
+      <EndSection />
     </main>
   );
 }
