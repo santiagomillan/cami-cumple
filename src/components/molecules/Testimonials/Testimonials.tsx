@@ -19,7 +19,7 @@ const testimonialList = [
       name: "Rocha",
       rating: 5,
       content:
-        '"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus magni tempore provident? Quaerat, dicta saepe praesentium eaque nobis corrupti aut, quibusdam provident consequatur."',
+        '"Excelente servicio: 5000 estrellas. Es una persona íntegra, muy muy leal y una excelente hermana. En todos estos años que he podido compartir con ella he visto un crecimiento y una evolución tan hermosa que te hace querer cada parte. Muy admirable su valentía y manera de afrontar cada situación. Servicio recomendadísimo si buscas una compañía para toda la vida y sobretodo una cómplice que te siga las estupideces sin miedo al ridículo. Se hace querer muy fácil y ese cariño perdura por años. Opinión personal: Me has hecho cambiar mi perspectiva de las cosas y de ser como persona de una forma tan positiva y linda, que para mí eso es lo que me queda y quedará para siempre en mi corazón hasta mi último momento. Agradezco infinitamente tu existencia, cada que llegas a la vida de alguien (como a la mia) le das un giro de 180 grados y la vida es mucho más divertida. Gracias por estar a mi lado."',
     },
     {
       photo:
