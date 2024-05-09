@@ -3,12 +3,12 @@ import Image from "next/image";
 export default function Nosotros() {
   return (
     <section className=" overflow-hidden w-4/5 ">
-      <div className=" px-8 my-32 md:my-10  h-svh md:h-80 flex flex-col justify-center">
+      <div className=" px-8 my-32 md:my-20  h-svh md:h-80 flex flex-col justify-center">
         <div className="flex flex-col sm:flex-row mx-auto">
           <div>
             <Image
               src="https://i.ibb.co/vXNxtKW/OIG-2y-9y-Tiej-C-7-Eqkg-Iy.jpg"
-              className="z-10 rounded-xl  rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 h-full w-full object-cover hover:scale-110 transform origin-bottom"
+              className=" rounded-xl  rotate-6 hover:rotate-0 duration-500 hover:-translate-y-12 hover:z-30 h-full w-full object-cover hover:scale-110 transform origin-bottom "
               alt="#_"
               width={500}
               height={500}
