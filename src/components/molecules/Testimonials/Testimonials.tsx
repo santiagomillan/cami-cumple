@@ -35,15 +35,15 @@ const testimonialList = [
       photo: "https://i.ibb.co/37sr1Cj/file.jpg",
       name: "Tio Scott",
       rating: 4.5,
-      content:
-        '"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus magni tempore provident? Quaerat, dicta saepe praesentium eaque nobis corrupti aut, quibusdam provident consequatur."',
+      content: `"${"What do I say about my niece at her 25th birthday?  I guess all I can really say is that I'm sorry I've only gotten the last few years of her being my beautiful, smart niece. I wish I could say I've been your Tio your whole life. One thing I know for sure, I couldn't love you more if I'd been there from the day you were born. I hope your next 25 years are even better than the first 25 and I'm happy I'll be around for them.  With all my love....Your Tio."}"`,
     },
     {
-      photo: "https://i.ibb.co/qJr6vCc/IMG-9964.jpg",
-      name: "Raima Sen",
+      photo:
+        "https://i.ibb.co/2krQzxB/438173113-10231505373048102-8037714969294419649-n.jpg",
+      name: "Tia Johanna",
       rating: 5,
       content:
-        '"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus magni tempore provident? Quaerat, dicta saepe praesentium eaque nobis corrupti aut, quibusdam provident consequatur."',
+        '"Mi preciosa niña. No se en que momento te nos creciste tan rápido. Aún recuerdo aquellos días con Chachito y Mateo jugando a hacer magias y a jugar en las piscinas en Mariquita. Hoy, no podría estar más orgullosa de la mujer hermosa y especial en la que te has convertido. Te amo con toda mi alma y sabes que siempre estoy aquí para ti. Tu tía que te ama con la vida! 😘😘😘"',
     },
     {
       photo: "https://i.ibb.co/pdJdyTP/IMG-9909.jpg",
@@ -58,17 +58,37 @@ const testimonialList = [
 const TestimonialItem = ({ item }: any) => {
   const { content, photo, name } = item;
   return (
-    <div className=" shadow-xl rounded-xl hover:-translate-y-1 h-full duration-300 p-6 bg-slate-700">
+    // <div className=" shadow-xl rounded-xl hover:-translate-y-1 h-full duration-300 p-6 bg-slate-700">
+    //   <div className="mt-4">
+    //     <p className=" mb-6 leading-loose">{content}</p>
+    //     <div className="flex items-center">
+    //       <div className="mr-2">
+    //         <Image
+    //           src={photo}
+    //           alt={name}
+    //           className="max-w-full h-full rounded-full border"
+    //           width={50}
+    //           height={50}
+    //         />
+    //       </div>
+    //       <div>
+    //         <h5 className="text-xl font-bold">{name}</h5>
+    //       </div>
+    //     </div>
+    //   </div>
+    // </div>
+    <div className="shadow-xl rounded-xl hover:-translate-y-1 h-full duration-300 p-6 bg-slate-700">
       <div className="mt-4">
-        <p className=" mb-6 leading-loose">{content}</p>
+        <p className="mb-6 leading-loose">{content}</p>
         <div className="flex items-center">
           <div className="mr-2">
             <Image
               src={photo}
               alt={name}
-              className="max-w-full h-auto rounded-full border"
+              className="max-w-full h-full rounded-full border"
               width={50}
               height={50}
+              objectFit="cover"
             />
           </div>
           <div>
