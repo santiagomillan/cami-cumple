@@ -17,7 +17,6 @@ const testimonialList = [
       photo:
         "https://i.ibb.co/HgRBS7v/ff914eb6-61a6-433a-b0d2-f9d044132195.jpg",
       name: "Rocha",
-      rating: 5,
       content:
         '"Excelente servicio: 5000 estrellas. Es una persona íntegra, muy muy leal y una excelente hermana. En todos estos años que he podido compartir con ella he visto un crecimiento y una evolución tan hermosa que te hace querer cada parte. Muy admirable su valentía y manera de afrontar cada situación. Servicio recomendadísimo si buscas una compañía para toda la vida y sobretodo una cómplice que te siga las estupideces sin miedo al ridículo. Se hace querer muy fácil y ese cariño perdura por años. Opinión personal: Me has hecho cambiar mi perspectiva de las cosas y de ser como persona de una forma tan positiva y linda, que para mí eso es lo que me queda y quedará para siempre en mi corazón hasta mi último momento. Agradezco infinitamente tu existencia, cada que llegas a la vida de alguien (como a la mia) le das un giro de 180 grados y la vida es mucho más divertida. Gracias por estar a mi lado."',
     },
@@ -25,7 +24,6 @@ const testimonialList = [
       photo:
         "https://i.ibb.co/JdFtxjc/423194562-24868004129479847-3788539217048371714-n.jpg",
       name: "Andrea",
-      rating: 3.5,
       content:
         '"Milis Maria, feliz pumpleeee. Eres una de las pocas cosas nindas que tiene TP. Eres un solecito, te he cogido mucho cariño a pesar de conocerte hace tan poco. Tienes una forma de ser bien bonis, toa extrovertida y divertida, pero también bien tiernísima así te quieras hacer la bad bitch jajdjajaj, siempre quieres ayudar a las personas y te preocupas por los demás jeje toa beia. Tqms Milis. Espero que podamos vernos para celebrar jiji."',
     },
@@ -34,21 +32,18 @@ const testimonialList = [
     {
       photo: "https://i.ibb.co/37sr1Cj/file.jpg",
       name: "Tio Scott",
-      rating: 4.5,
       content: `"${"What do I say about my niece at her 25th birthday?  I guess all I can really say is that I'm sorry I've only gotten the last few years of her being my beautiful, smart niece. I wish I could say I've been your Tio your whole life. One thing I know for sure, I couldn't love you more if I'd been there from the day you were born. I hope your next 25 years are even better than the first 25 and I'm happy I'll be around for them.  With all my love....Your Tio."}"`,
     },
     {
       photo:
         "https://i.ibb.co/2krQzxB/438173113-10231505373048102-8037714969294419649-n.jpg",
       name: "Tia Johanna",
-      rating: 5,
       content:
         '"Mi preciosa niña. No se en que momento te nos creciste tan rápido. Aún recuerdo aquellos días con Chachito y Mateo jugando a hacer magias y a jugar en las piscinas en Mariquita. Hoy, no podría estar más orgullosa de la mujer hermosa y especial en la que te has convertido. Te amo con toda mi alma y sabes que siempre estoy aquí para ti. Tu tía que te ama con la vida! 😘😘😘"',
     },
     {
       photo: "https://i.ibb.co/pdJdyTP/IMG-9909.jpg",
       name: "Akshay Kumar",
-      rating: 3.5,
       content:
         '"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus magni tempore provident? Quaerat, dicta saepe praesentium eaque nobis corrupti aut, quibusdam provident consequatur."',
     },
