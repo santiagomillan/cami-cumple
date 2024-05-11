@@ -2,7 +2,8 @@
     position: relative;
     width: 100%;
     height: 600px; /* Altura de la sección en escritorio */
-    background-image: url("/Images/wonderland.jpg");
+    background-image: url("https://i.ibb.co/wh5X5Rw/45988-alicia-en-el-pais-de-las-maravillas.jpg");
+     /* url("/Images/wonderland.jpg"); */
     background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el contenedor */
     background-position: center; /* Centra la imagen */
   }
