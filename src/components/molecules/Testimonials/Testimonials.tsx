@@ -42,10 +42,33 @@ const testimonialList = [
         '"Mi preciosa niña. No se en que momento te nos creciste tan rápido. Aún recuerdo aquellos días con Chachito y Mateo jugando a hacer magias y a jugar en las piscinas en Mariquita. Hoy, no podría estar más orgullosa de la mujer hermosa y especial en la que te has convertido. Te amo con toda mi alma y sabes que siempre estoy aquí para ti. Tu tía que te ama con la vida! 😘😘😘"',
     },
     {
-      photo: "https://i.ibb.co/pdJdyTP/IMG-9909.jpg",
-      name: "Akshay Kumar",
+      photo: "https://i.ibb.co/R6PdpBd/file.jpg",
+      name: "Dianita",
       content:
-        '"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus magni tempore provident? Quaerat, dicta saepe praesentium eaque nobis corrupti aut, quibusdam provident consequatur."',
+        '"Un día como hoy mi vida cambió para siempre y no podría haber sido mejor. Hoy no solamente voy a celebrar tu vida, también hoy quiero agradecerte, por ser mi apoyo, por estar ahí, por ser mi amiga,   mi sitio seguro. Me siento orgullosa todos los días de mi vida de ver la mujer en la que te has convertido, tan madura, honesta, con principios, que se preocupa siempre por hacer feliz primero a sus seres queridos. Por último, feliz feliz cumpleaños al amor de mi vida, a mi amiga, la que con un abrazo me sana el alma.  Te bendigo con toda bendición, no solo hoy sino todos los días de tu vida. Te amo ciela hermosa."',
+    },
+  ],
+  [
+    {
+      photo: "https://i.ibb.co/d7gYMzT/IMG-20210508-154223.jpg",
+      name: "Suegro",
+      content: `"Camila; en los momentos actuales se requieren de personas con un alto valor moral, de una responsabilidad a toda prueba, con calidad humana, comprometida con sigo misma y para con los demás.
+      Sí es mujer es mucho más destacado porque la, sociedad las necesita debemos tratar de reconstruir el tejido social, pero reconocer el valor que tienen personas como tú
+      Sabes que te admiro por todas tus habilidades y desarrollo personal.
+      Espero sigas disfrutando de tus éxitos laborales y en unión de tu muy linda familia."`,
+    },
+    {
+      photo:
+        "https://i.ibb.co/2krQzxB/438173113-10231505373048102-8037714969294419649-n.jpg",
+      name: "Tia Johanna",
+      content:
+        '"Mi preciosa niña. No se en que momento te nos creciste tan rápido. Aún recuerdo aquellos días con Chachito y Mateo jugando a hacer magias y a jugar en las piscinas en Mariquita. Hoy, no podría estar más orgullosa de la mujer hermosa y especial en la que te has convertido. Te amo con toda mi alma y sabes que siempre estoy aquí para ti. Tu tía que te ama con la vida! 😘😘😘"',
+    },
+    {
+      photo: "https://i.ibb.co/R6PdpBd/file.jpg",
+      name: "Dianita",
+      content:
+        '"Un día como hoy mi vida cambió para siempre y no podría haber sido mejor. Hoy no solamente voy a celebrar tu vida, también hoy quiero agradecerte, por ser mi apoyo, por estar ahí, por ser mi amiga,   mi sitio seguro. Me siento orgullosa todos los días de mi vida de ver la mujer en la que te has convertido, tan madura, honesta, con principios, que se preocupa siempre por hacer feliz primero a sus seres queridos. Por último, feliz feliz cumpleaños al amor de mi vida, a mi amiga, la que con un abrazo me sana el alma.  Te bendigo con toda bendición, no solo hoy sino todos los días de tu vida. Te amo ciela hermosa."',
     },
   ],
 ];
