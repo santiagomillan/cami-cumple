@@ -58,13 +58,6 @@ const testimonialList = [
       Espero sigas disfrutando de tus éxitos laborales y en unión de tu muy linda familia."`,
     },
     {
-      photo:
-        "https://i.ibb.co/2krQzxB/438173113-10231505373048102-8037714969294419649-n.jpg",
-      name: "Tia Johanna",
-      content:
-        '"Mi preciosa niña. No se en que momento te nos creciste tan rápido. Aún recuerdo aquellos días con Chachito y Mateo jugando a hacer magias y a jugar en las piscinas en Mariquita. Hoy, no podría estar más orgullosa de la mujer hermosa y especial en la que te has convertido. Te amo con toda mi alma y sabes que siempre estoy aquí para ti. Tu tía que te ama con la vida! 😘😘😘"',
-    },
-    {
       photo: "https://i.ibb.co/tPDWWjx/file.jpg",
       name: "María Paula",
       content:
