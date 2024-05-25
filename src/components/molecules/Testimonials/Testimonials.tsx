@@ -59,9 +59,24 @@ const testimonialList = [
     },
     {
       photo: "https://i.ibb.co/tPDWWjx/file.jpg",
-      name: "María Paula",
+      name: "Mapu",
       content:
         '"Geme linda de mi corazóncitoooo, paso a desearte un feliz feliz cumpleaños, que sea un nuevo año de vida colmado de muchos éxitos, bendiciones y experiencias maravillosas junto a quienes más quieres. Quiero agradecerte por ser una curita al corazón; por apoyarme, guiarme, quererme y escucharme siempre que lo he necesitado. De verdad espero que la vida nos permita compartir muchos años más juntas y que podamos seguir construyendo una amistad sólida y duradera.Tqm, feliz vuelta al solecito❤️🖤"',
+    },
+    {
+      photo: "https://i.ibb.co/FVP8Jp8/file.jpg",
+      name: "Camilo",
+      content: `"Nunca pensé que Dios me podía dar la oportunidad nuevamente, pero el escichar la palabra #papá# es un sueño cumplido, te amo hija hermosa, eres un ser maravilloso, sientete orgullosa de ti, como yo me siento orgulloso de todo lo que eres, brilla porque eres mas poderosa que la luz del sol, eres capaz de ser y hacer lo que se te venga en gana. Dios siempre estará de tu lado no lo olvides."`,
+    },
+  ],
+  [
+    {
+      photo:
+        "https://i.ibb.co/Xjxkc5k/417549088-10223945453972108-1690838945826952895-n.jpg",
+      name: "Brenda",
+      content: `"Milosa la Camilosa, espero que este nuevo año sea espectacular para ti, gracias por tu amistad que es muy cool y divertida, aunque a veces nos saquemos la piedra jiji, siento que eres una persona en quien se puede confiar y es muy firme para las buenas y las malas. Bienvenida al club de los 25 💃🏻 no olvides que ahora tenemos que tomar colágeno hidrolizado. 
+      Espero que podamos celebrar muchos cumpleaños más! Un abracito
+      Shao la ruda más tierna"`,
     },
   ],
 ];
